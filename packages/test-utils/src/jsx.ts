@@ -1,8 +1,11 @@
 /* eslint-disable prettier/prettier */
 // @ts-ignore
-import { createHyperscript, createText as createTestText } from "slate-hyperscript";
-import { HyperscriptShorthands } from "slate-hyperscript/dist/hyperscript";
-import { createText } from "./hyperscript/creators";
+import {
+  createHyperscript,
+  createText as createTestText,
+} from 'slate-hyperscript';
+import { HyperscriptShorthands } from 'slate-hyperscript/dist/hyperscript';
+import { createText } from './hyperscript/creators';
 
 declare global {
   namespace JSX {
@@ -38,6 +41,7 @@ const voidChildren = [{ text: '' }];
 const ELEMENT_BLOCKQUOTE = 'blockquote';
 const ELEMENT_CODE_BLOCK = 'code_block';
 const ELEMENT_CODE_LINE = 'code_line';
+const ELEMENT_COLLAPSIBLE = 'collapsible';
 const ELEMENT_EXCALIDRAW = 'excalidraw';
 const ELEMENT_H1 = 'h1';
 const ELEMENT_H2 = 'h2';
@@ -66,6 +70,7 @@ const elements: HyperscriptShorthands = {
   hblockquote: { type: ELEMENT_BLOCKQUOTE },
   hcodeblock: { type: ELEMENT_CODE_BLOCK },
   hcodeline: { type: ELEMENT_CODE_LINE },
+  hcollapsible: { type: ELEMENT_COLLAPSIBLE },
   hdefault: { type: ELEMENT_PARAGRAPH },
   hexcalidraw: { type: ELEMENT_EXCALIDRAW },
   hh1: { type: ELEMENT_H1 },

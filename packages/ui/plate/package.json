@@ -42,6 +42,7 @@
     "@udecode/plate-ui-alignment": "13.5.0",
     "@udecode/plate-ui-block-quote": "13.5.0",
     "@udecode/plate-ui-code-block": "13.5.0",
+    "@udecode/plate-ui-collapsible": "13.5.0",
     "@udecode/plate-ui-combobox": "13.5.0",
     "@udecode/plate-ui-cursor": "13.5.0",
     "@udecode/plate-ui-dnd": "13.5.0",

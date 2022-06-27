@@ -6,6 +6,7 @@ export * from '@udecode/plate-styled-components';
 export * from '@udecode/plate-ui-alignment';
 export * from '@udecode/plate-ui-block-quote';
 export * from '@udecode/plate-ui-code-block';
+export * from '@udecode/plate-ui-collapsible';
 export * from '@udecode/plate-ui-combobox';
 export * from '@udecode/plate-ui-cursor';
 export * from '@udecode/plate-ui-dnd';

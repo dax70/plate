@@ -44,6 +44,7 @@
     "@udecode/plate-block-quote": "13.5.0",
     "@udecode/plate-break": "13.5.0",
     "@udecode/plate-code-block": "13.5.0",
+    "@udecode/plate-collapsible": "13.5.0",
     "@udecode/plate-combobox": "13.5.0",
     "@udecode/plate-core": "13.5.0",
     "@udecode/plate-find-replace": "13.5.0",

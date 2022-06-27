@@ -124,6 +124,7 @@ module.exports = {
         'examples/multi-editors',
         'examples/iframe',
         'examples/preview-markdown',
+        'examples/richtext',
       ],
       collapsed: false,
     },
